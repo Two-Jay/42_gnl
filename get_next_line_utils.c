@@ -6,7 +6,7 @@
 /*   By: jekim <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 03:50:41 by jekim             #+#    #+#             */
-/*   Updated: 2021/02/22 17:24:36 by jekim            ###   ########.fr       */
+/*   Updated: 2021/02/24 13:58:36 by jekim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ size_t	ft_strlen(char *str)
 {
 	char *temp;
 
+	if (!str || !*str)
+		return (0);
 	temp = str;
 	while (*temp++)
 		;

@@ -6,7 +6,7 @@
 /*   By: jekim <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 01:44:15 by jekim             #+#    #+#             */
-/*   Updated: 2021/02/24 13:37:09 by jekim            ###   ########.fr       */
+/*   Updated: 2021/02/24 13:54:21 by jekim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,7 @@ int			get_next_line(int fd, char **line)
 	static char	*queue[OPEN_MAX];
 	char		*lon;
 
-	if (fd < 0 || fd > OPEN_MAX || BUFFER_SIZE <= 0 || !line)
+	if (fd < 0 || BUFFER_SIZE <= 0 || !line)
 		return (-1);
 	if (!queue[fd])
 		queue[fd] = ft_strdup("");
