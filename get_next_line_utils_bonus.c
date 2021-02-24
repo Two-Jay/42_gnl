@@ -6,11 +6,11 @@
 /*   By: jekim <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/18 03:50:41 by jekim             #+#    #+#             */
-/*   Updated: 2021/02/24 13:01:34 by jekim            ###   ########.fr       */
+/*   Updated: 2021/02/24 13:35:39 by jekim            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_utils.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(char *str)
 {
